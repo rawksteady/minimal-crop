@@ -1,0 +1,73 @@
+/*  ==================================================================  */
+/*  mnml-reset v1.0
+/*  ----
+/*  Because sometimes, even Normalize can seem too much.
+/*  ----
+/*  dennisandersson.me
+/*  twitter.com/ndrsn
+/*  dribbble.com/dennisandersson
+/*  github.com/rawksteady/
+/*  codepen.io/dennisandersson
+/*  ==================================================================  */
+
+    *{box-sizing:border-box;}*:after,*:before{box-sizing:inherit;}html,body{margin:0;padding:0;text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+
+/*  ==================================================================  */
+/*  mnml-crop v1.0
+/*  ----
+/*  Basic image cropping with CSS
+/*  ----
+/*  dennisandersson.me
+/*  twitter.com/ndrsn
+/*  dribbble.com/dennisandersson
+/*  github.com/rawksteady/
+/*  codepen.io/dennisandersson
+/*  ==================================================================  */
+
+    .mnml-crop{height:0;overflow:hidden;position:relative}.mnml-crop--1by1{padding-bottom:100%}.mnml-crop--4by3{padding-bottom:75%}.mnml-crop--16by10{padding-bottom:62.5%}.mnml-crop--16by9{padding-bottom:56.25%}.mnml-crop--21by9{padding-bottom:42.85%}.mnml-crop__object{position:absolute}.mnml-crop__object:not(img){background-size:cover;background-position:50%;height:100%;width:100%;top:0;bottom:0;left:0}.mnml-crop__object:not(div){display:block;min-height:100%;min-width:100%;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+
+/*  ==================================================================  */
+/*  Demo specific styles
+/*  ==================================================================  */
+
+    body {
+        background-color: #f6f8fa;
+        color: #555;
+        font-family: sans-serif;
+        line-height: 1.618;
+        text-align: center;
+    }
+    .wrap {
+        margin: 4rem auto;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        max-width: 500px;
+    }
+    .demo {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        width: 100%;
+    }
+        .mnml-crop {
+            background-color: #fff;
+            border-radius: 5px;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 500px;
+        }
+        .mnml-crop {
+            margin: 0;
+        }
+    .title {
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    pre {
+        background-color: #fff;
+        border-radius: 5px;
+        overflow-x: scroll;
+        padding: 1rem;
+        text-align: left;
+    }
+.btn{color:inherit;display:inline-block;padding:.75em 1.5em;text-decoration:none}.ghm{display:block;height:2rem;margin-right:auto;margin-bottom:.5rem;margin-left:auto;width:2rem}
